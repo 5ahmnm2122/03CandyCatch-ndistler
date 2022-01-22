@@ -9,7 +9,7 @@ A small game where you have to catch as many fruits as possible without touching
 ### Development platform: 
 OS: macOS Mojave, Unity 2020.3.22f1, Visual Studio for Mac 8.8.10
 
-## Software/Hardware Requirements: 
+### Software/Hardware Requirements: 
 none
 
 ### Target platform: 
