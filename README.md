@@ -31,11 +31,11 @@ Bomb: https://www.freepik.com/free-vector/round-black-bomb-realistic-style_49041
 
 
 ### Project state: 
-100%/100% finished
+90%/100% finished (WebGL still has to be exported )
 <progress max="100" value="100"></progress>
 
 ### Limitations: 
-none
+none so far
 
 ### Lessons Learned: 
 - Scene Switch
