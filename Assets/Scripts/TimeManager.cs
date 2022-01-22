@@ -13,7 +13,6 @@ public class TimeManager : MonoBehaviour
     private float startingTime = 60f;
     public NameSceneMain nameSceneMain;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +35,7 @@ public class TimeManager : MonoBehaviour
         if (timer.text == "00:00")
         {
             nameSceneMain.GetScore();
+            
             SceneManager.LoadScene(2);
         }
     }
