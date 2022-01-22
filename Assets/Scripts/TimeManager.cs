@@ -10,7 +10,7 @@ public class TimeManager : MonoBehaviour
     [SerializeField] Text timer;
 
     private float currentTime = 0f;
-    private float startingTime = 60f;
+    private float startingTime = 1f;
     public NameSceneMain nameSceneMain;
 
     // Start is called before the first frame update
@@ -34,7 +34,7 @@ public class TimeManager : MonoBehaviour
 
         if (timer.text == "00:00")
         {
-            nameSceneMain.GetScore();
+            nameSceneMain.GetScore(false);
             
             SceneManager.LoadScene(2);
         }

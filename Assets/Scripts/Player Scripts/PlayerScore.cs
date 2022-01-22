@@ -36,7 +36,7 @@ public class PlayerScore : MonoBehaviour
     IEnumerator LoadOutro()
     {
         yield return new WaitForSecondsRealtime(0.5f);
-        nameSceneMain.GetScore(); 
+        nameSceneMain.GetScore(true); 
         SceneManager.LoadScene(2);
     }
 

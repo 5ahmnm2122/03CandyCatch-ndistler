@@ -9,6 +9,7 @@ public class NameSceneMain : MonoBehaviour
     public Text scoreText;
     private string playerName;
     private string score;
+    bool hasLost;
 
     public void Awake()
     {
@@ -24,12 +25,17 @@ public class NameSceneMain : MonoBehaviour
         {
             GameObject.Find("Score").GetComponent<Text>().text = "Score: " + score;
             GameObject.Find("Name").GetComponent<Text>().text = playerName;
+            if (hasLost)
+            {
+                GameObject.Find("WonLose").GetComponent<Text>().text = "GAME OVER!";
+            }
         }
 
     }
 
-    public void GetScore()
+    public void GetScore(bool hasTouchedBomb)
     {
+        hasLost = hasTouchedBomb;
         score = scoreText.text;
     }
 
