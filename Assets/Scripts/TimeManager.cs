@@ -10,7 +10,7 @@ public class TimeManager : MonoBehaviour
     [SerializeField] Text timer;
 
     private float currentTime = 0f;
-    private float startingTime = 1f;
+    private float startingTime = 60f;
     public NameSceneMain nameSceneMain;
 
     // Start is called before the first frame update
