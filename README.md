@@ -16,7 +16,14 @@ none
 WebGL
 
 ### Visuals: 
+Intro
 <img class="img" src="Images/Intro.png" alt="intro">
+Main
+<img class="img" src="Images/Main.png" alt="intro">
+GamePlay
+<img class="img" src="Images/GamePlay.png" alt="intro">
+Outro
+<img class="img" src="Images/Outro.png" alt="intro">
 
 ### Third party material: 
 Background: https://www.freepik.com/free-vector/winter-landscape-with-frozen-lake-clouds_7773451.htm#query=sky&position=0&from_view=search 
