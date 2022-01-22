@@ -16,7 +16,7 @@ none
 WebGL
 
 ### Visuals: 
-TODO
+(./Images/Intro.png)
 
 ### Third party material: 
 Background: https://www.freepik.com/free-vector/winter-landscape-with-frozen-lake-clouds_7773451.htm#query=sky&position=0&from_view=search 
