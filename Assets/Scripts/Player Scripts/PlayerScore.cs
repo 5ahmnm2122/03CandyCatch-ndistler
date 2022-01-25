@@ -20,14 +20,14 @@ public class PlayerScore : MonoBehaviour
         if (target.tag == "Bomb")
         {
             transform.position = new Vector2(0, 100);
-            target.gameObject.SetActive(false);
+            Destroy(target.gameObject);
             StartCoroutine(LoadOutro());
         }
 
         if (target.tag == "Fruit")
         {
             Debug.Log("fruit catch");
-            target.gameObject.SetActive(false);
+            Destroy(target.gameObject);
             score++;
             scoreText.text = score.ToString();
         }

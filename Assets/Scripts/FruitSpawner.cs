@@ -11,8 +11,6 @@ public class FruitSpawner : MonoBehaviour
 
     float x1, x2;
 
-    // Start is called before the first frame update
-
     private void Awake()
     {
         col = GetComponent<BoxCollider2D>();
