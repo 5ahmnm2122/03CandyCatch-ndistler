@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    
     public void MoveToScene(int sceneID)
     {
         if (sceneID == 0)
