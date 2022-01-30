@@ -1,7 +1,7 @@
 # 03CandyCatcher-ndistler
 
 ## Finished project:
-#toDo
+https://5ahmnm2122.github.io/03CandyCatch-ndistler/ 
 
 ### Project description: 
 A small game where you have to catch as many fruits as possible without touching the bombs. It has a start scene to enter your name as well as an outro sceen to see your stats.
@@ -38,7 +38,7 @@ Bomb: https://www.freepik.com/free-vector/round-black-bomb-realistic-style_49041
 
 
 ### Project state: 
-90%/100% finished (WebGL still has to be exported )
+100%/100% // FINISHED
 <progress max="100" value="100"></progress>
 
 ### Limitations: 
@@ -47,5 +47,6 @@ none so far
 ### Lessons Learned: 
 - Scene Switch
 - Carrying over information from one scene to another
+- WebGL build re-learned
 
 Copyright by ndistler
